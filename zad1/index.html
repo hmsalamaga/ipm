@@ -38,7 +38,8 @@
     </br>
 
     <label for="sys_path2">7b. Ścieżka do katalogu systemu (z dużymi literami)</label>
-    <input id="sys_path2" name="sys_path2" type="text" placeholder="C:\WinDoWs\teMP" onchange="validateSysPath2()">
+    <input id="sys_path2" name="sys_path2" type="text" placeholder="C:\WinDoWs\teMP" onkeydown="validateSysPath2();"
+        oninput="validateSysPath2();">
     </br>
 
     <label for="etc_path">8. Ścieżka do katalogu /etc</label>
