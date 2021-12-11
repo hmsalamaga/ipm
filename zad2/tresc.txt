@@ -1,0 +1,12 @@
+Proszę przesłać plik html i wszystkie zależności w archiwum zip. W pierwszej linii pola tekstowego proszę wpisać słowo "html",
+które ma być KLIKALNYM linkiem do pliku HTML na githubie w postaci github pages (tak by można było od razu "odpalić" projekt na github.io).
+Obok ma się znajdować słowo "kod", które ma być klikalnym linkiem do projektu na githubie. Oprócz tego w polu tekstowym proszę opisać ile procent (mniej więcej)
+zadania udało się Państwu zrealizować i co było dla Państwa najtrudniejsze (nawet jeśli wykonali Państwo całość zadania).
+
+1) Proszę poprawić błędy z poprzedniego zadania.
+2) Proszę dodać element UI pozwalający na wybranie daty z kalendarza
+3) Proszę dodać element ui wykorzystujący poprzedni punkt ale limitujący wybór do jedno z pracujących dni (pon-pn) w tym tygodniu. 
+4) Proszę dodać dwa elementy UI pozwalające na wpisanie godziny
+		    a) w formacie 12 godzinnym
+		    b) w formacie 24 godzinnym
+5) Proszę dodać element UI pozwalający na wybór koloru

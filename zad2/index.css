@@ -1,0 +1,29 @@
+input {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input:focus {
+    outline: none !important;
+}
+
+input:invalid {
+    border: 3px solid red;
+}
+
+input:valid {
+    border: 3px solid green;
+}
+
+input:placeholder-shown {
+    border: 3px solid black;
+}
+
+.valid {
+    border: 3px solid green !important;
+}
+
+.invalid {
+    border: 3px solid red !important;
+}
+  
