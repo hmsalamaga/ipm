@@ -7,15 +7,19 @@ input:focus {
     outline: none !important;
 }
 
-input:invalid {
+.zad1 > input:invalid {
     border: 3px solid red;
 }
 
-input:valid {
+.zad1 > input:valid {
     border: 3px solid green;
 }
 
-input:placeholder-shown {
+.zad1 > input:placeholder-shown {
+    border: 3px solid black;
+}
+
+.zad2 > input {
     border: 3px solid black;
 }
 
