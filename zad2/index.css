@@ -23,6 +23,10 @@ input:focus {
     border: 3px solid black;
 }
 
+.zad2 > input:invalid {
+    border: 3px solid red;
+}
+
 .valid {
     border: 3px solid green !important;
 }
