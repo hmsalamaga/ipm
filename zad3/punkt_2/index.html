@@ -7,11 +7,18 @@
 </head>
 
 <body>
-		<a href="../index.html">Wróć</a>
+		<a href="../index.html" style="margin-top: 10px; margin-left: 5px;">Wróć</a>
 		</br>
 		</br>
 		
-		<div style='background-color: red; height: 50px; width: 50px; cursor: move; position: absolute;' draggable=true></div>
+		<div id="panel">
+			<div>
+				<button onclick="{generateBox()}">Generuj klocek</button>
+			</div>
+			<div id="boxes">
+				<div class="box" draggable=true></div>
+			</div>
+		</div>
 		<div id="platform"></div>
 
     <script src="index.js"></script>

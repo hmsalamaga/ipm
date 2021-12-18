@@ -5,6 +5,18 @@ body {
 	width: 100vw;
 }
 
+#panel {
+	display: flex;
+	margin-left: 5px;
+}
+
+#boxes {
+	margin-left: 10px;
+	border: grey 1px solid;
+	height: 100px;
+	width: 500px;
+}
+
 #platform {
 	margin: 0;
 	height: 80vh;
@@ -12,4 +24,11 @@ body {
 	background-color: yellow;
 	position: absolute;
 	bottom: 0;
+}
+
+.box {
+	height: 50px;
+	width: 50px;
+	cursor: move;
+	position: absolute;
 }
