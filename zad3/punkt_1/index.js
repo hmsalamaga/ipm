@@ -29,9 +29,9 @@ document.addEventListener("drop", ({target}) => {
 		}
 
 		if(index > indexDrop) {
-			target.before( dragged );
+			target.before(dragged);
 		} else {
-			target.after( dragged );
+			target.after(dragged);
 		}
 	}
 });

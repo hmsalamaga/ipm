@@ -16,6 +16,7 @@ li {
 }
 
 .element:before {
+	cursor: move;
 	margin-right: 5px;
 	content: counter(item);
 	background: red;

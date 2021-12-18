@@ -7,5 +7,3 @@ Obok ma się znajdować słowo "kod", które ma być klikalnym linkiem do projek
 2) Proszę opracować stronę na której 80% powierzchni zajmować będzie platforma, a na pozostałych 20% będzie guzik "Generuj klocek"
    i miejsce gdzie będzie się pojawiał klocek z o losowym kolorze. Następnie z wykorzystaniem Drag&Drop użytkownik będzie mógł
 	 przenieść klocek na platformie i umieścić na innym klocku (a'la tetris, ale nie muszą być "w jednej linii").
-
-
