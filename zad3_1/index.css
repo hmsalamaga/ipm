@@ -29,6 +29,7 @@ body {
 .box {
 	height: 50px;
 	width: 50px;
+	box-sizing: border-box;
 	cursor: move;
 	position: absolute;
 }
