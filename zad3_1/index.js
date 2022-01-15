@@ -75,17 +75,15 @@ const moveBox = (layerX, layerY, target) => {
 }
 
 const generateBox = () => {
-	let color = randomColor();
-
 	let boxesDiv = document.getElementById('boxes');
 	let div = document.createElement('div');
 	div.className = 'box';
 	div.draggable = true;
-	div.style = `background-color: #${color}`;
+	div.style = `background-color: ${randomColor()}`;
 
 	boxesDiv.appendChild(div);
 }
 
 const  randomColor = () => {
-	return Math.floor(Math.random()*16777215).toString(16);
+	return '#'+Math.floor(Math.random()*16777215).toString(16);
 }
