@@ -80,7 +80,6 @@ const generateBox = () => {
 	div.setAttribute('class', 'box');
 	div.setAttribute('draggable', true);
 	div.setAttribute('style', `background-color: ${randomColor()}`);
-	console.log(div);
 
 	boxesDiv.appendChild(div);
 }
