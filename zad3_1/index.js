@@ -77,9 +77,10 @@ const moveBox = (layerX, layerY, target) => {
 const generateBox = () => {
 	let boxesDiv = document.getElementById('boxes');
 	let div = document.createElement('div');
-	div.className = 'box';
-	div.draggable = true;
-	div.style = `background-color: ${randomColor()}`;
+	div.setAttribute('class', 'box');
+	div.setAttribute('draggable', true);
+	div.setAttribute('style', `background-color: ${randomColor()}`);
+	console.log(div);
 
 	boxesDiv.appendChild(div);
 }
